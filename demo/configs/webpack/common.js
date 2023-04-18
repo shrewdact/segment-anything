@@ -63,10 +63,10 @@ module.exports = {
           from: "node_modules/onnxruntime-web/dist/*.wasm",
           to: "[name][ext]",
         },
-        {
-          from: "model",
-          to: "model",
-        },
+        // {
+        //   from: "model",
+        //   to: "model",
+        // },
         {
           from: "src/assets",
           to: "assets",
